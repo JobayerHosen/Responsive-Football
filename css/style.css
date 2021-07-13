@@ -33,6 +33,7 @@ img {
 section {
     margin: 70px 0;
 }
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -138,4 +139,50 @@ section {
     font-weight: bold;
     line-height: 40px;
     margin: 16px 0;
+}
+.player__info {
+    width: 100%;
+    font-size: 16px;
+    color: #6C6C6C;
+    max-height: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+/* ---------------------------*\
+            PLAYERS
+\*----------------------------*/
+footer {
+    width: 100%;
+    margin-top: 64px;
+    padding-bottom: 64px;
+}
+.footer__wrapper  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__wrapper img {
+    width: 400px;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 20px 0;
+}
+.social i {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 50%;
+    color: #969BAB;
+    background-color: #969bab5e;
+}
+.copyright {
+    font-size: 18px;
 }

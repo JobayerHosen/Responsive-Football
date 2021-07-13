@@ -1,17 +1,24 @@
 /* ---------------------------*\
             GLABAL
 \*----------------------------*/
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --bg: #fff;
+    --theme-main: #E02C6D;
+    --theme-blue: #2D25A0;
+}
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+
     font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
 }
 li {
     list-style: none;
@@ -21,4 +28,69 @@ a {
 }
 img {
     max-width: 100%;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.btn {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 24px;
+    background-color: var(--theme-main);
+    text-align: center;
+    transition: box-shadow .4s ease;
+}
+.btn:hover {
+    box-shadow: 0 0 10px #00000077;
+}
+
+
+
+/* ---------------------------*\
+            HEADER
+\*----------------------------*/
+.header {
+    width: 100%;
+    padding: 42px 0;
+    background-color: var(--theme-blue);
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.menu li a {
+    color: #fff;
+}
+
+.header__main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 0;
+}
+.header__texts {
+    width: 500px;
+    max-width: 50%;
+}
+.header__title {
+    font-size: 64px;
+    color: #fff;
+    line-height: 80px;
+    margin-bottom: 27px;
+}
+.header__bg {
+    width: 550px;
+    max-width: 50%;
 }

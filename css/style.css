@@ -26,8 +26,12 @@ li {
 a {
     text-decoration: none;
 }
+
 img {
     max-width: 100%;
+}
+section {
+    margin: 70px 0;
 }
 .container {
     width: 90%;
@@ -45,6 +49,17 @@ img {
 .btn:hover {
     box-shadow: 0 0 10px #00000077;
 }
+.menu__item a {
+    font-size: 16;
+    transition: all .3s ease
+}
+.menu__item:hover a {
+    color: var(--theme-main);
+}
+
+
+
+
 
 
 
@@ -93,4 +108,34 @@ img {
 .header__bg {
     width: 550px;
     max-width: 50%;
+}
+
+
+
+
+
+
+/* ---------------------------*\
+            PLAYERS
+\*----------------------------*/
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    padding: 0 30px;
+}
+.players__card {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 0 0 40px 12px #00000021;
+}
+.player__name {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 16px 0;
 }

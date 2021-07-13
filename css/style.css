@@ -57,7 +57,12 @@ section {
 .menu__item:hover a {
     color: var(--theme-main);
 }
-
+.description {
+    font-size: 16px;
+    color: #6C6C6C;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 
 
@@ -148,6 +153,40 @@ section {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+
+
+
+/* ---------------------------*\
+            HIGHLIGHT
+\*----------------------------*/
+.highlight__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 0;
+}
+.highlight__texts {
+    width: 500px;
+    max-width: 50%;
+}
+.highlight__title {
+    font-size: 48px;
+    color: #000;
+    line-height: 60px;
+    margin-bottom: 27px;
+}
+.highlight__bg {
+    width: 550px;
+    max-width: 50%;
+}
+
+
+
+
+
+
 
 
 

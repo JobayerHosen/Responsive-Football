@@ -13,6 +13,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -50,6 +51,15 @@ section {
 }
 .btn:hover {
     box-shadow: 0 0 10px #00000077;
+}
+.section-title {
+    width: 100%;
+    padding: 10px 0;
+}
+.section-title h2 {
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 3px solid var(--theme-main);
 }
 .menu__item a {
     font-size: 16;
@@ -211,10 +221,37 @@ section {
 
 
 
+/* ---------------------------*\
+            LIVE
+\*----------------------------*/
+.live__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.live__match {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.live__match h3 {
+    font-size: 30px;
+    display: inline-block;
+    border-bottom: 2px solid var(--theme-main);
+}
+.live__wrapper iframe {
+    width: 95%;
+    max-width: 720px;
+    aspect-ratio: 16/9;
+}
+
+
 
 
 /* ---------------------------*\
-            PLAYERS
+            FOOTER
 \*----------------------------*/
 footer {
     width: 100%;
@@ -240,7 +277,7 @@ footer {
     font-size: 18px;
     padding: 10px;
     border-radius: 50%;
-    color: #969BAB;
+    color: #546ab1;
     background-color: #969bab5e;
 }
 .copyright {

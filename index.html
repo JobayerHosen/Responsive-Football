@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- HEADER start -->
-    <header class="header">
+    <header id="header" class="header">
 
         <!-- NAVBAR start -->
         <div class="container">
@@ -25,15 +25,15 @@
                     
                     <ul class="menu">
                         <label for="menu-toggle"><i class="fas fa-times"></i></label>
-                        <li class="menu__item"><a href="">Home</a></li>
-                        <li class="menu__item"><a href="">Clubs</a></li>
-                        <li class="menu__item"><a href="">World Cup 2023</a></li>
-                        <li class="menu__item"><a href="">Matches</a></li>
-                        <li class="menu__item"><a href="">contact</a></li>
+                        <li class="menu__item"><a href="index.html">Home</a></li>
+                        <li class="menu__item"><a href="#players">Clubs</a></li>
+                        <li class="menu__item"><a href="#live">Live</a></li>
+                        <li class="menu__item"><a href="#highlights">Highlights</a></li>
+                        <li class="menu__item"><a href="#contact">contact</a></li>
                     </ul>                    
                 </div>
 
-                <a href="" class="btn">
+                <a href="login.html" class="btn">
                     <i class="fas fa-sign-in-alt"></i> &nbsp;Login
                 </a>
             </nav> 
@@ -47,7 +47,7 @@
                         Copa America <br>
                         2021
                         </h1>
-                    <a href="" class="btn">Watch Live &nbsp;
+                    <a href="#live" class="btn">Watch Live &nbsp;
                         <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
@@ -62,7 +62,7 @@
 
 
     <!-- PLAYER SECTION start -->
-    <section class="player-section">
+    <section id="players" class="player-section">
         <div class="container">
             <div class="players">
                 <div class="players__card">
@@ -153,6 +153,25 @@
         </div>
     </section>
     <!-- HIGHLIGHT SECTION end -->
+
+
+    <!-- LIVE SECTION start -->
+    <section id="live" class="live">
+        <div class="container">
+            <div class="section-title">
+                <h2>LIVE </h2>
+            </div>
+            <div class="live__match">
+                <h3>Brazil vs Argentina</h3>
+            </div>
+            <div class="live__wrapper">
+                <iframe src="https://www.youtube.com/embed/uRCFdeN9tPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- LIVE SECTION end -->
+
+    
 
     <footer>
         <div class="container">

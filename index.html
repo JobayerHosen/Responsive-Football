@@ -18,13 +18,21 @@
         <!-- NAVBAR start -->
         <div class="container">
             <nav class="navbar">
-                <ul class="menu">
-                    <li class="menu__item"><a href="">Home</a></li>
-                    <li class="menu__item"><a href="">Clubs</a></li>
-                    <li class="menu__item"><a href="">World Cup 2023</a></li>
-                    <li class="menu__item"><a href="">Upcomming Matches</a></li>
-                    <li class="menu__item"><a href="">contact</a></li>
-                </ul>
+                <div class="menu-container"> 
+                    <!-- this checkbox toggles the menu in mobile view -->
+                    <label for="menu-toggle"><i class="fas fa-bars"></i></label>
+                    <input type="checkbox" hidden="hidden" name="menu-toggle" id="menu-toggle">
+                    
+                    <ul class="menu">
+                        <label for="menu-toggle"><i class="fas fa-times"></i></label>
+                        <li class="menu__item"><a href="">Home</a></li>
+                        <li class="menu__item"><a href="">Clubs</a></li>
+                        <li class="menu__item"><a href="">World Cup 2023</a></li>
+                        <li class="menu__item"><a href="">Matches</a></li>
+                        <li class="menu__item"><a href="">contact</a></li>
+                    </ul>                    
+                </div>
+
                 <a href="" class="btn">
                     <i class="fas fa-sign-in-alt"></i> &nbsp;Login
                 </a>
@@ -34,7 +42,7 @@
 
         <div class="container">
             <div class="header__main">
-                <div class="head__texts">
+                <div class="header__texts">
                     <h1 class="header__title">Conmebol <br>
                         Copa America <br>
                         2021
@@ -50,6 +58,8 @@
         </div>
     </header>
     <!-- HEADER end -->
+
+
 
     <!-- PLAYER SECTION start -->
     <section class="player-section">
@@ -142,7 +152,6 @@
             </div>  
         </div>
     </section>
-
     <!-- HIGHLIGHT SECTION end -->
 
     <footer>

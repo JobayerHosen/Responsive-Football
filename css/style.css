@@ -145,8 +145,17 @@ section {
 .header__bg {
     width: 550px;
     max-width: 50%;
+    background-image: url(../images/bg-ball.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
-
+.header__bg img {
+    transition: transform .7s ease;
+}
+.header__bg:hover img {
+    transform: rotate(1deg) skew(-23deg, 16deg) translate(-10px,10px);
+}
 
 
 
@@ -337,7 +346,9 @@ footer {
     .btn {
         padding: 8px 18px;
     }
-
+    .section-title {
+        font-size: 24px;
+    }
 
 
 
